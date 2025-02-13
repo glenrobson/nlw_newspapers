@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}{{newspaper.name}}{% endblock %}
+{% block intro %}Select page to work with{% endblock %}
+
+{% block content %}
+<div class="row">
+    {% for page in newspaper.pages %}
+    <div class="col s6 m4 l3">
+      <div class="card medium" style="max-width: 300px;">
+        <div class="card-image waves-effect waves-block waves-light">
+            <a href="{{url_for('view_blueprint.view_page', issue=newspaper.pid, page=page.pid) }}"><img src="{{page.thumb}}"></a>
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">{{page.label}}</span>
+        </div>
+        <div class="card-action">
+            <a href="{{url_for('view_blueprint.view_page', issue=newspaper.pid, page=page.pid) }}">View</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}

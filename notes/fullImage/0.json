@@ -1,0 +1,370 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "@id": "http://localhost:5500/data/3036869/0.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/0",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 22: \u201cie"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=434,285,644,696"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/1",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: othe"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=1205,292,1624,711"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/2",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 57: w"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=2963,277,315,300"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/3",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 46: ip"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=3435,255,405,689"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/4",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: hargeden"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=4123,262,1684,719"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/5",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 95: AND"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=1482,719,285,98"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/6",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 93: CARDIGAN"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=1908,666,719,217"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/7",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: HTRE"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=2694,704,367,180"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/8",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 88: GENERAL"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=3173,696,644,187"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/9",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: _"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=3884,748,60,120"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/10",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 91: ADVER"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=3988,704,442,173"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/11",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 31: Two"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=5754,1122,165,38"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/12",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 7: Pract."
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=5964,1063,255,98"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/13",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 21: Aberystwith"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=3195,1691,509,83"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/14",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 34: Ovserver."
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=3779,1691,412,75"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/15",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 76: FRNKFORT"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=232,2581,382,98"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/16",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 93: HOUSE,"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=674,2618,225,53"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/17",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: plegerausn,"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=165,2693,382,60"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/18",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: apzarsews"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=592,2686,457,90"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/19",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 29: Saver"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=277,5035,225,75"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/20",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: Davis"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=592,5042,262,68"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/21",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 46: Be"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=427,5124,150,68"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/22",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: taneattErpe,"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=592,5117,487,83"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/23",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 12: SUPER"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=1220,5117,262,53"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/24",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 48: 3."
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=2604,6089,45,53"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/25",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 44: A"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=2709,6097,30,45"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/26",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: qasbus,"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=2784,6089,247,60"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/27",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 61: |"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=3113,6074,15,98"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/28",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: aeibe"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=2470,6171,173,60"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/29",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 23: Bai"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=2791,6171,143,75"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/30",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 45: al"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=5380,8281,83,105"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/31",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: Stuerenatismdin"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=5470,8243,1011,202"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/0/annotation/32",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: tt"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036870#xywh=6383,8206,113,270"
+        }
+    ]
+}

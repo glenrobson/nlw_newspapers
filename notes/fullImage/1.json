@@ -1,0 +1,62 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "@id": "http://localhost:5500/data/3036869/1.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "http://localhost:5500/data/3036869/1/annotation/0",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 91: ABERYSTWITH"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036871#xywh=2851,202,853,83"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/1/annotation/1",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 84: OBSERVEK."
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036871#xywh=3801,202,651,90"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/1/annotation/2",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 0: sarunnay,"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036871#xywh=5537,247,300,53"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/1/annotation/3",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 38: AONB"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036871#xywh=5941,255,165,45"
+        },
+        {
+            "@id": "http://localhost:5500/data/3036869/1/annotation/4",
+            "@type": "oa:Annotation",
+            "motivation": "commenting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Confidence: 68: 18"
+            },
+            "on": "http://dams.llgc.org.uk/iiif/3036869/canvas/3036871#xywh=6151,247,53,53"
+        }
+    ]
+}

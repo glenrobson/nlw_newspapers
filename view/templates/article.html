@@ -1,0 +1,76 @@
+{% extends "viewer.html" %}
+
+{% block title %}{{newspaper.name}} - {{newspaper.article(article).name}}{% endblock %}
+
+{% block sidebar %}      
+<ul id="slide-out" class="sidenav">
+  
+  <li><a href="#!">Articles</a></li>
+  <li><div class="divider"></div></li>
+  {% for article in newspaper.getArticles(page) %}
+    <li><a class="waves-effect" href="{{url_for('view_blueprint.view_article', issue=newspaper.pid, page=page, article=article.id)}}">{{article.name}}</a></li>
+  {% endfor %}
+</ul>
+<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="large material-icons">navigate_next</i></a>
+{% endblock %}   
+
+{% block content %}
+<div class="row">
+   <div id="viewer" class="col s4 m4" style="height:85vh; border:1px solid black; margin: .5rem 0 1rem 0;position: sticky; top: 15px;"></div>
+   <div class="col s4 m4">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">Tesseract OCR</span>
+
+        {% for annoLine in annotations["tesseract"].lines %}
+            <p>{% for anno in annoLine.words %}{{anno.value}} {% endfor %}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col s4 m4" style="height:85vh;">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">ALTO OCR</span>
+        {% for annoLine in annotations["alto"].lines %}
+            <p>{% for anno in annoLine.words %}{{anno.value}} {% endfor %}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    window.onload = function() {
+        var viewer = OpenSeadragon({
+            element: document.getElementById('viewer'),
+            tileSources: "{{ newspaper.infoJsonURL(page)}}",
+            prefixUrl:"https://cdn.jsdelivr.net/npm/openseadragon@5.0/build/openseadragon/images/"
+        });
+
+        var anno = AnnotoriousOSD.createOSDAnnotator(viewer);
+     
+        viewer.addHandler('open', function() {
+            x = {{article.x}};
+            y = {{article.y}};
+            width = {{article.width}};
+            height = {{article.height}};
+
+            var overlay = document.createElement('div');
+            overlay.className = 'highlight';
+
+            var tiledImage = viewer.world.getItemAt(0); 
+            var imageRect = new OpenSeadragon.Rect(x, y, width, height);
+            var viewportRect = tiledImage.imageToViewportRectangle(imageRect);
+
+            viewer.addOverlay(overlay, viewportRect);
+            viewportRect.x -= 0.02;
+            viewportRect.y -= 0.02;
+            viewportRect.width += 0.02;
+            viewportRect.height += 0.04;
+            viewer.viewport.fitBounds(viewportRect);
+        });
+    }
+</script>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}Import NLW Newspapers{% endblock %}
+{% block intro %}Add a pid or manifest below to import a Newspaper issue to the collection{% endblock %}
+
+{% block content %}
+<form action="import" method="POST">
+  <p>Enter the URL to a Newspaper IIIF Manifest:</p>
+  <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <img src="{{url_for('static', filename='img/iiif_logo.png')}}" class="material-icons prefix" style="width:30px"/>
+          <textarea id="icon_prefix2" name="manifest" class="materialize-textarea"></textarea>
+          <label for="icon_prefix2">Manifest URL</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p>Or enter a pid</p>
+  <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="icon_prefix2" name="pid" class="materialize-textarea"></textarea>
+          <label for="icon_prefix2">PID</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn waves-effect waves-light" type="submit" name="submit">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</form>
+{% endblock %}
